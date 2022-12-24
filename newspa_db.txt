@@ -1,0 +1,40 @@
+===Database newspa_db
+
+== Table structure for table appointments
+
+|------
+|Column|Type|Null|Default
+|------
+|//**appointment_id**//|int(11)|No|
+|firstname|varchar(50)|No|
+|lastname|varchar(50)|No|
+|email|varchar(100)|No|
+|servicename|varchar(50)|No|
+|clientaddress|varchar(100)|No|
+|appointmentdate|date|No|
+|gender_id|int(11)|No|
+|avatar_path|int(200)|No|
+== Dumping data for table appointments
+
+== Table structure for table gender
+
+|------
+|Column|Type|Null|Default
+|------
+|//**gender_id**//|int(11)|No|
+|name|varchar(10)|No|
+== Dumping data for table gender
+
+|1|Male
+|2|Female
+== Table structure for table users
+
+|------
+|Column|Type|Null|Default
+|------
+|id|int(11)|No|
+|username|varchar(20)|No|
+|password|varchar(50)|No|
+== Dumping data for table users
+
+|0|admin|80a19f669b02edfbc208a5386ab5036b
